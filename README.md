@@ -10,3 +10,9 @@ There are two scenarios:
 
 2) If we send exactly the same image via Postman - it looks like bun works like a charm
 
+How to run example apps:
+
+In order to run web api written in .net 8 I recommend to use https://www.jetbrains.com/rider/ open the solution and hit green triangle here:
+<img width="1920" alt="image" src="https://github.com/tomaszzmudzinski/bun-net-upload/assets/4519335/91f66906-c99e-4789-a572-c027b665fecc">
+
+Bun server runs on port 3005 and I open it's solution in VS Code
