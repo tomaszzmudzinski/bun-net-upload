@@ -36,6 +36,7 @@ const server = Bun.serve({
 
         const arrayBuffer = await blob.arrayBuffer();
 
+        // if image is sent from .net 8 then sharp can't make any work on it
         let imageBuffer = await sharp(arrayBuffer)
           .rotate()
           .resize({ width: 1920, withoutEnlargement: true })
